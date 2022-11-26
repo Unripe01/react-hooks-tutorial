@@ -3,15 +3,15 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
-const shincodeInfo = {
+const shinCodeInfo = {
   name: "shincode",
   age: 24,
 };
 
-const ShinCodeContext = createContext(shincodeInfo);
+const ShinCodeContext = createContext(shinCodeInfo);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <ShinCodeContext.Provider value={shincodeInfo}>
+  <ShinCodeContext.Provider value={shinCodeInfo}>
     <React.StrictMode>
       <App />
     </React.StrictMode>

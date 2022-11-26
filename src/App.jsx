@@ -11,7 +11,7 @@ import "./App.css";
 import SomeChild from "./SomeChild";
 import useLocalStorage from "./useLocalStorage";
 // このコメントを外すと無限ループになる
-// import ShinCodeContext from "./main";
+import ShinCodeContext from "./main";
 
 const reducer = (state, action) => {
   switch (action.type) {
